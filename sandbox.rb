@@ -8,4 +8,4 @@ def starts_with_a_vowel?(a)
   end
 end
 
-starts_with_a_vowel?(a)
+puts starts_with_a_vowel?(a)
