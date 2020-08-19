@@ -1,10 +1,10 @@
-string = "hello world"
+SENT = "hello world"
 
-a = string.split
+a = SENT.split
 
 def starts_with_a_vowel?(a)
   a.any? do |word|
-    string.include?(word)
+    SENT.include?(word)
   end
 end
 
