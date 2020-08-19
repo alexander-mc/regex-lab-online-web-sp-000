@@ -1,7 +1,5 @@
 string = "hello world"
 
-array = string.each {|word|
-  word
-}
+array = string.split
 
-puts array
+puts array.inspect
