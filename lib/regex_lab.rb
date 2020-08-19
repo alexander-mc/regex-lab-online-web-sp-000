@@ -12,7 +12,7 @@ end
 text1 = "underling unpopling unpoppy sunpoping unpoppling abse"
 puts words_starting_with_un_and_ending_with_ing(text1)
 
-puts "bunderling".scan(/^un+\w+ing\b/)
+puts "bunderling".scan(/^un+\w+ing$)
 
 def words_five_letters_long(text)
 
