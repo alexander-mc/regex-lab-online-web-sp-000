@@ -4,12 +4,12 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
    text.split.select do |word|
-     word == "unpoppy"
+     word.scan(/^un\w+asdf$/)
    end
 #  text.scan(/^un\w+ing$/)
 end
 
-text1 = "underling unpopling unpoppy sunpoping unpopplingy"
+text1 = "underling unpopling unpoppy sunpoping unpoppling abse"
 puts words_starting_with_un_and_ending_with_ing(text1)
 
 
