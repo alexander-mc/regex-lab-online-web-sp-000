@@ -3,7 +3,7 @@ string = "hello world"
 array = string.split
 
 def starts_with_a_vowel?(a)
-  a.applicable? do |word|
+  a.all? do |word|
     word == "this" || word = "asdf"
   end
 end
