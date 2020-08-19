@@ -1,9 +1,9 @@
 string = "hello world"
 
-array = string.split
+a = string.split
 
 def starts_with_a_vowel?(a)
-  a.all? do |word|
+  a.any? do |word|
     word == "this"
   end
 end
