@@ -3,8 +3,8 @@ string = "hello world"
 array = string.split
 
 def starts_with_a_vowel?(a)
-  a.each do |word|
-    puts word
+  a.all? do |word|
+    word == "hello" | word == "world"
   end
 end
 
