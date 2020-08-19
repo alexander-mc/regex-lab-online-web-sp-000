@@ -3,12 +3,14 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.split.select {|word| word.scan(/^un\w+asdf$/)}
+   text.split.select do |word|
+    puts word
+   end
 #  text.scan(/^un\w+ing$/)
 end
 
 text1 = "underling unpopling unpoppy sunpoping unpopplingy"
-puts words_starting_with_un_and_ending_with_ing(text1).inspect
+words_starting_with_un_and_ending_with_ing(text1)
 
 
 def words_five_letters_long(text)
