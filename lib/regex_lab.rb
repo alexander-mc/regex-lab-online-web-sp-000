@@ -3,8 +3,13 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.scan(/(^un\w+ing$/))
+  puts text.split
+#  text.scan(/^un\w+ing$/)
 end
+
+text1 = "underling unpopling unpoppy sunpoping unpopplingy"
+words_starting_with_un_and_ending_with_ing)(text1)
+
 
 def words_five_letters_long(text)
 
