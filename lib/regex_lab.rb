@@ -3,8 +3,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-   text.split.select do |word|
-     puts word.scan(/^un+\w+ing$/).class
+   text.split.select do |w|
+     puts w.scan(/^un+\w+ing$/).class
    end
 #  text.scan(/^un\w+ing$/)
 end
