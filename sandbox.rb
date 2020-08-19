@@ -4,7 +4,7 @@ array = string.split
 
 def starts_with_a_vowel?(a)
   a.all? do |word|
-    word == ("hello" | "world")
+    word == "hello" | word == "world"
   end
 end
 
