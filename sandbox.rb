@@ -1,2 +1,7 @@
 string = "hello world"
-puts string
+
+array = string.each {|word|
+  word
+}
+
+puts array
