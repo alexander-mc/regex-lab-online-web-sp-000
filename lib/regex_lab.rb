@@ -10,7 +10,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 text1 = "underling unpopling unpoppy sunpoping unpopplingy"
-words_starting_with_un_and_ending_with_ing(text1)
+puts words_starting_with_un_and_ending_with_ing(text1)
 
 
 def words_five_letters_long(text)
