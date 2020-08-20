@@ -9,13 +9,8 @@ def words_starting_with_un_and_ending_with_ing(text)
 #   end
 end
 
-text1 = "underling unpopling unpoppy sunpoping unpoppling abse"
-puts words_starting_with_un_and_ending_with_ing(text1).inspect
-
-puts text1.scan(/\b[Uu]n[a-z]*ing\b/).inspect
-
 def words_five_letters_long(text)
-
+  text.scan()
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
