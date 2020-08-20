@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
    text.split.select do |word|
-     puts word.scan(/^un+\w+ing$/)
+     puts word.scan(/^un+\w+ing$/).length == 1
    end
 #  text.scan(/^un\w+ing$/)
 end
